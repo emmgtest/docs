@@ -1446,6 +1446,8 @@ paths:
           <p>The <code>end_user_reference</code> parameter is used to group, track and analyse transactions made by a specific customer. To prevent transactions from getting delayed or cancelled, always make sure to include the correct ID. The ID must not contain any personal or identifying customer data.</p>
           <p>If you do not provide sender data in the request, the invoice will still be created, but your customer will be prompted for their data on the invoice form. If the customer is already registered in your system, include their <code>end_user_reference</code> and the <code>sender_data</code> object for a smoother user experience.</p>
           <p><b>Warning:</b> For invoices with a timer and pre-selected currency, <code>sender_type</code> and <code>sender_data</code> are required.</p>
+      x-mint:
+          content: "Create an invoice for the client for a specified amount. \n\n Make sure that the URLs that you provide in the url_success and url_failed fields use the secure HTTPS protocol, use domain names (not IP addresses) and are considered clean by VirusTotal and similar scanners.\n\n<Note>Cryptoprocessing is required to collect sender data in compliance with the MiCA regulations.</Note>"
       tags:
         - invoices
       responses:
