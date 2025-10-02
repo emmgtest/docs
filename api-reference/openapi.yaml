@@ -23,7 +23,7 @@ info:
 servers:
   - url: https://app.cryptoprocessing.com/api/v2
 tags:
-  - name: status
+  - name: Check status
   - name: balance
   - name: currencies
   - name: deposit addresses
@@ -47,7 +47,7 @@ paths:
           x-gitbook-description-html: <p>OK</p>
       operationId: get-ping
       tags:
-       - status
+       - Check status
       security:
         - {}
       x-gitbook-description-document:
