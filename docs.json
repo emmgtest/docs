@@ -49,7 +49,7 @@
       },
       {
         "tab": "API reference",
-        "openapi": "api-reference/openapi.j"
+        "openapi": "api-reference/openapi.yaml"
       }
     ],
     "global": {
