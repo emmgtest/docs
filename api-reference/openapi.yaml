@@ -24,13 +24,7 @@ servers:
   - url: https://app.cryptoprocessing.com/api/v2
 tags:
   - name: Check status
-  - name: balance
-  - name: currencies
-  - name: deposit addresses
-  - name: withdrawal
-  - name: exchange
   - name: Invoices
-  - name: transactions
 security:
   - ApiKeyAuth:
     - xProcessingKey
