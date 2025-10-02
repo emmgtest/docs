@@ -1537,7 +1537,7 @@ paths:
                         description: Invoice title.
                       status:
                         type: string
-                        x-gitbook-description-html: For newly created invoices, this will always be either <code>created</code> or <code>pending</code>.
+                        gitbook: For newly created invoices, this will always be either created or pending.
                         enum:
                           - created
                           - pending
@@ -1662,7 +1662,7 @@ paths:
                   $ref: "#/components/schemas/end_user_reference"
                 timer:
                   type: boolean
-                  x-gitbook-description-html: If this parameter is set to true, the invoice will expire in 15 minutes after it is created.
+                  description: If this parameter is set to true, the invoice will expire in 15 minutes after it is created.
                 title:
                   type: string
                   maxLength: 50
@@ -1677,10 +1677,10 @@ paths:
                   maxLength: 255
                 currency:
                   type: string
-                  x-gitbook-description-html: "Currency you want to receive deposits in. For a list of all available currencies, see <a href=\"https://docs.cryptoprocessing.com/master/supported-currencies\">Supported currencies</a>."
+                  description: "Currency you want to receive deposits in. For a list of all available currencies, see Supported currencies.
                 sender_currency:
                   type: string
-                  x-gitbook-description-html: Currency of the customer's invoice payment. Invoices with a timer and a pre-selected currency will be externalized at the time of sending this parameter with <code>timer</code> set to true.
+                  description: Currency of the customer's invoice payment. Invoices with a timer and a pre-selected currency will be externalized at the time of sending this parameter with timer set to true.
                 amount:
                   type: number
                   description: "Invoice amount that you want to receive from the customer."
@@ -1701,9 +1701,9 @@ paths:
                   enum:
                   - natural
                   - legal
-                  x-gitbook-description-html: Whether the sender is a natural person (<code>natural</code>) or a legal entity (<code>legal</code>). If you include the <code>sender_type</code> parameter in the request, <code>sender_data</code> is also required.
+                  description: Whether the sender is a natural person (<code>natural</code>) or a legal entity (<code>legal</code>). If you include the <code>sender_type</code> parameter in the request, <code>sender_data</code> is also required.
                 sender_data: 
-                  x-gitbook-description-html: If the sender is a natural person, include their <code>first_name</code>, <code>last_name</code> and <code>date_of_birth</code>. If the sender is a legal entity, include their <code>legal_name</code> and <code>country_of_registration</code>.
+                  description: If the sender is a natural person, include their <code>first_name</code>, <code>last_name</code> and <code>date_of_birth</code>. If the sender is a legal entity, include their <code>legal_name</code> and <code>country_of_registration</code>.
                   type: object
                   required:
                     - first_name
