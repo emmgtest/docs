@@ -40,7 +40,7 @@ paths:
     get:
       summary: Check status
       x-page-title: Check status
-      description: Test if API is up and running and your authorisation is working.
+      x-gitbook-description-html: "<p>Test if API is up and running and your authorisation is working.</p>"
       responses:
         '200':
           description: OK
