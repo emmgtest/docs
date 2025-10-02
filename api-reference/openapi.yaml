@@ -69,7 +69,7 @@ paths:
   /accounts/list:
     post:
       summary: Get a list of balances
-      x-gitbook-description-html: "<p>Get a list of your balances for each cryptocurrency, including zero balances.</p>"
+      description: Get a list of your balances for each cryptocurrency, including zero balances.
       tags:
         - balance
       operationId: post-accounts-list
