@@ -39,6 +39,7 @@ paths:
   /ping:
     get:
       summary: Check status
+      x-page-title: Check status
       description: Test if API is up and running and your authorisation is working.
       responses:
         '200':
@@ -49,10 +50,26 @@ paths:
        - status
       security:
         - {}
+      x-gitbook-description-document:
+        object: document
+        data:
+          schemaVersion: 8
+        nodes:
+          - object: block
+            type: paragraph
+            isVoid: false
+            data: {}
+            nodes:
+              - object: text
+                leaves:
+                  - object: leaf
+                    text: >-
+                      Test if your API connection is working.
+                    marks: []
   /accounts/list:
     post:
       summary: Get a list of balances
-      description: Get a list of your balances for each cryptocurrency, including zero balances.
+      x-gitbook-description-html: "<p>Get a list of your balances for each cryptocurrency, including zero balances.</p>"
       tags:
         - balance
       operationId: post-accounts-list
