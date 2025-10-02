@@ -49,6 +49,7 @@
       },
       {
         "tab": "API reference",
+        "openapi": "api-reference/openapi.yaml",
         "groups": [
           {
             "group": "API documentation",
