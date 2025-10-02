@@ -8,6 +8,11 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "api": {
+   "playground": {
+     "display": "none"
+   }
+ },
   "navigation": {
     "tabs": [
       {
