@@ -23,13 +23,13 @@ info:
 servers:
   - url: https://app.cryptoprocessing.com/api/v2
 tags:
-  - name: status
+  - name: Check status
   - name: balance
   - name: currencies
   - name: deposit addresses
   - name: withdrawal
   - name: exchange
-  - name: invoices
+  - name: Invoices
   - name: transactions
 security:
   - ApiKeyAuth:
@@ -40,32 +40,18 @@ paths:
     get:
       summary: Check status
       x-page-title: Check status
-      x-gitbook-description-html: "<p>Test if API is up and running and your authorisation is working.</p>"
+      x-mint:
+          content: Test if your API connection is working.
       responses:
         '200':
           description: OK
           x-gitbook-description-html: <p>OK</p>
       operationId: get-ping
       tags:
-       - status
+       - Check status
       security:
         - {}
-      x-gitbook-description-document:
-        object: document
-        data:
-          schemaVersion: 8
-        nodes:
-          - object: block
-            type: paragraph
-            isVoid: false
-            data: {}
-            nodes:
-              - object: text
-                leaves:
-                  - object: leaf
-                    text: >-
-                      Test if your API connection is working.
-                    marks: []
+
   /invoices/create:
     post:
       summary: Create an invoice
@@ -167,7 +153,7 @@ paths:
           If you do not provide sender data in the request, the invoice will still be created, but your customer will be prompted for their data on the invoice form. If the customer is already registered in your system, include their <code>end_user_reference</code> and the <code>sender_data</code> object for a smoother user experience.\n\n
           <Note>For invoices with a timer and pre-selected currency, sender_type and sender_data are required.</Note>"
       tags:
-        - invoices
+        - Invoices
       responses:
         '200':
           description: OK
