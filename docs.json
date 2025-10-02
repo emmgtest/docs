@@ -60,14 +60,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Product updates",
+          "anchor": "Changelog",
           "href": "https://test-59a06dbe.mintlify.app/docs/changelog",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
