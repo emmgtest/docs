@@ -60,8 +60,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Product updates",
+          "href": "https://test-59a06dbe.mintlify.app/docs/changelog",
           "icon": "book-open-cover"
         },
         {
