@@ -55,6 +55,14 @@
       {
         "tab": "API reference",
         "openapi": "api-reference/openapi.yaml"
+      },
+      {
+        "tab": "Sandbox",
+        "icon": "code",
+        "pages": [
+          "sandbox/introduction",
+          "sandbox/get-your-api-key"
+        ]
       }
     ],
     "global": {
