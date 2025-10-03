@@ -19,27 +19,30 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
-              "index",
+              "introduction/supported-currencies",
               "quickstart",
               "development"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Integration guide",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "integration-guide/get-your-api-key",
+              "integration-guide/before-you-start-making-api-calls",
+              "integration-guide/receive-deposits",
+              "integration-guide/design-the-crypto-payment-form",
+              "integration-guide/make-withdrawals"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Reference",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "reference/confirmations-and-limits",
+              "reference/btc-deposit-fee",
+              "reference/about-network-fees",
+              "reference/faq"
             ]
           },
           {
