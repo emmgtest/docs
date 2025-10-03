@@ -14,6 +14,15 @@
    }
  },
   "navigation": {
+    "anchors": [
+        {
+          "anchor": "Changelog",
+          "icon": "clock-rotate-left",
+          "pages": [
+              "docs/changelog"
+            ]
+        }
+      ],
     "tabs": [
       {
         "tab": "Guides",
@@ -66,13 +75,7 @@
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Changelog",
-          "href": "https://test-59a06dbe.mintlify.app/docs/changelog",
-          "icon": "clock-rotate-left"
-        }
-      ]
+      
     }
   },
   "logo": {
